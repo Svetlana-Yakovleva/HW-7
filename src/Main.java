@@ -31,36 +31,36 @@ public class Main {
         }
         System.out.println("Задача 4");
         int contribution = 15_000;
-        int Month=0;
+        month=0;
         int general=0;
         while (general<=12_000_000){
             int percent = general*7/100;
             general=general+contribution+percent;
-            Month++;
-            System.out.println("Месяц "+Month+ " сумма накоплений "+ general);
+            month++;
+            System.out.println("Месяц "+month+ " сумма накоплений "+ general);
         }
         System.out.println("Задача 5");
         contribution=15_000;
-        Month=0;
+        month=0;
         general=0;
         while (general<=12_000_000) {
             int percent = general * 7 / 100;
             general = general + contribution + percent;
-            Month++;
-            if (Month % 6 == 0) {
-                System.out.println("Месяц " + Month + " сумма накоплений " + general);
+            month++;
+            if (month % 6 == 0) {
+                System.out.println("Месяц " + month + " сумма накоплений " + general);
             }
         }
         System.out.println("Задача 6");
         contribution=15_000;
-        Month=0;
+        month=0;
         general=0;
-        while (Month<=108){
+        while (month<=108){
             int percent = general*7/100;
             general=general+contribution+percent;
-            Month++;
-            if (Month%6==0){
-                System.out.println("Месяц "+Month+ " сумма накоплений "+ general);
+            month++;
+            if (month%6==0){
+                System.out.println("Месяц "+month+ " сумма накоплений "+ general);
             }
         }
         System.out.println("Задача 7");
